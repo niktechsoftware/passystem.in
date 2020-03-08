@@ -1,0 +1,229 @@
+<div class="page-body">
+  <div class="row">
+    <div class="col-sm-12">
+      <!-- Basic Form Inputs card start -->
+      <div class="card">
+
+        <div class="card-block">
+          <form action="<?php echo base_url();?>index.php/product/addproduct_value" method="post"
+            enctype="multipart/form-data">
+            <div class="row">
+              <div class="col-md-12 register-right">
+                <div class="tab-content" id="myTabContent">
+                  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                    <h2 class="register-heading">Add Product</h2>
+                    <div class="row register-form">
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <div id="validId"></div>
+                          <div id="validId1"></div>
+                          <?php 
+                                      
+                                 $cat =$this->db->get("category")->result();?>
+                        </div>
+                        <div class="form-group">
+                          <label><strong>Product Code<span style="color:red;"> *</span></strong> </label>
+                          <input type="text" class="form-control text-uppercase" id="hsn" name="p_code"
+                            placeholder="Product Code (HSN)" required="" />
+                        </div>
+                        <div class="form-group" id="cate">
+                          <label><strong>Product Category <span style="color:red;"> *</span></strong> </label>
+                          <select name="category" id="cate1" class="form-control">
+                            <option value="" disabled selected>------ Select Category-------</option>
+                            <?php foreach($cat as $row):?>
+                            <option value="<?php echo $row->id;?>"><?php echo $row->name;?></option>
+                            <?php endforeach;?>
+                          </select>
+                        </div>
+                        <div class="form-group" id="com">
+                          <label><strong>Product Company Name <span style="color:red;"> *</span></strong> </label>
+                          <input type="text" class="form-control text-uppercase" name="cname" id="cname"
+                            placeholder="Company Name" required="" />
+
+                        </div>
+                        <div class="form-group" id="companyname1">
+                          <label><strong>Product Company Name <span style="color:red;"> *</span></strong> </label>
+                          <input type="text" class="form-control text-uppercase" name="cname1" readonly id="companyname"
+                            placeholder="Company Name" required="" />
+
+                        </div>
+
+                        <div class="form-group" id="categoryname">
+                          <label><strong>Product Category Name<span style="color:red;"> *</span></strong> </label>
+                          <input type="text" class="form-control text-uppercase" readonly id="categoryname1" />
+
+
+                        </div>
+                        <div class="form-group" id="prnmae">
+                          <label><strong>Product Name <span style="color:red;"> *</span></strong> </label>
+                          <input type="text" class="form-control text-uppercase" name="name" id="name"
+                            placeholder="Product Name" required="" />
+                        </div>
+                        
+                         <div class="form-group" id="pna">
+                          <label><strong>Product Name <span style="color:red;"> *</span></strong> </label>
+                          <input type="text" class="form-control text-uppercase" name="name1"  readonly id="pnname"
+                            placeholder="Product Name" required="" />
+                        </div>
+                        <div class="form-group" id="quantity">
+                          <label><strong>Product Quantity</strong> </label>
+                          <input type="text" class="form-control text-uppercase"  name="quantity" id="quantity"
+                            placeholder="Product Quantity" value="0" required="" />
+                        </div>
+                        <div class="form-group" id="onupadtequantity1">
+                          <label><strong>Product Quantity</strong> </label>
+                          <input type="text" class="form-control text-uppercase" readonly name="quantity1" id="onupadtequantity"
+                            placeholder="Product Quantity" value="0" required="" />
+                        </div>
+
+                        <div class="form-group" id="extraqunatity">
+                          <label><strong>Product Extra Qunatity</strong> </label>
+                          <input type="text" class="form-control" id="extraqunatity1"
+                            placeholder="Product extra Quantity" />
+                        </div>
+                        <div class="form-group" id="file1">
+                          <label><strong>Product File 1 <span style="color:red;"> *</span></strong> </label>
+                          <input type="file" class="form-control" name="file2" placeholder="Image 1" required="" />
+                        </div>
+                        <div class="form-group" id="file2">
+                          <label><strong>Product File 2<span style="color:red;"> *</span></strong> </label>
+                          <input type="file" class="form-control" name="file4" placeholder="Image 2" required="" />
+                        </div>
+
+                        <div class="form-group" id="billno">
+                          <label><strong>Purchase Invoice NO</strong> </label>
+                          <input type="text" class="form-control" name="invoice_no" id="invoice_no" placeholder="Invoice Number">
+                        </div>
+                        <div class="form-group" id="cgst1">
+                          <label><strong>CGST Amount</strong> </label>
+                          <input type="text" class="form-control" name="cgst" id="cgst" placeholder="CGST Amount" >
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group">
+                        </div>
+                        <div class="form-group">
+                          <label><strong>Product Serial Number</strong> </label>
+                          <input type="text" class="form-control" name="sno" id="sno"
+                            placeholder="Product Code (SEC)" />
+                        </div>
+                        <div class="form-group" id="sub_category1">
+                          <label><strong>Product Sub Category <span style="color:red;"> *</span></strong> </label>
+                          <select name="sub_category" id="sub_category" class="form-control text-uppercase">
+                            <option value="" disabled selected></option>
+
+                          </select>
+                        </div>
+                        <div class="form-group" id="sub_categoryname">
+                          <label><strong>Product Sub Category</strong> </label>
+                          <input type="text" class="form-control text-uppercase" readonly id="sub_categoryname1" />
+                        </div>
+
+                        <div class="form-group" id="hideee">
+                          <label><strong>Product Type</strong> </label>
+                          <input type="text" name="scname" id="scname" class="form-control text-uppercase"
+                            placeholder="Type Of Product" />
+                        </div>
+                         <div class="form-group" id="ptp1">
+                          <label><strong>Product Type</strong> </label>
+                          <input type="text" name="scname1" id="ptp"  readonly class="form-control text-uppercase"
+                            placeholder="Type Of Product" />
+                        </div>
+                        <div class="form-group" id="size1">
+                          <label><strong>Product Size<span style="color:red;"> *</span></strong> </label>
+                          <input type="text" class="form-control text-uppercase" name="size" id="size"
+                            placeholder="Product Size" required="" />
+                        </div>
+                        <div class="form-group" id="size21">
+                          <label><strong>Product Size<span style="color:red;"> *</span></strong> </label>
+                          <input type="text" class="form-control text-uppercase" readonly name="size1" id="size2"
+                            placeholder="Product Size" required="" />
+                        </div>
+                        <div class="form-group" id="price1">
+                          <label><strong>Product Price<span style="color:red;"> *</span></strong> </label>
+                          <input type="text" class="form-control text-uppercase" name="price" id="price"
+                            placeholder="Product Price" required="" />
+                        </div>
+                        <!--<div class="form-group" id="price21">-->
+                        <!--  <label><strong>Product Price<span style="color:red;"> *</span></strong> </label>-->
+                        <!--  <input type="text" class="form-control text-uppercase" readonly name="price1" id="price2"-->
+                        <!--    placeholder="Product Price" required="" />-->
+                        <!--</div>-->
+        
+                        <div class="form-group" id="file4">
+                          <label><strong>Offer Image</strong> </label>
+                          <input type="file" class="form-control" name="file3" placeholder="Offer Image" >
+                        </div>
+                         
+                         <div class="form-group" id="Purchase_total">
+                          <label><strong>Total Purchase Amount</strong> </label>
+                          <input type="text" class="form-control" name="totamount" id="total_amount" readonly placeholder="Purchase Total Amount" required="" />
+                          </div>
+                       
+                        <div class="form-group" id="sgst1">
+                          <label><strong>SGST Amount</strong> </label>
+                          <input type="text" class="form-control" name="sgst" id="sgst" placeholder="SGST Amount">
+                        </div>
+                        <!--<div class="form-group">-->
+                        <!--  <input type="submit" class="btnRegister"  value="Register"/>-->
+                        <!--</div>-->
+                        <div class="form-group" id="productadd" style="margin-top:50px;">
+
+                          <button type="submit" class=" form-control btn-primary" id="productadd">Add Product</button>
+                        </div>
+                        <div class="form-group">
+                          <button type="submit" class=" form-control btn-danger" id="updatequantity">Update
+                            Qunatity</button>
+                        </div>
+                          <input type="hidden" class="form-control" name="total_amount" id="total_amount1" placeholder="Purchase Total Amount" required="" />
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+
+          <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+          <script>
+          $("#cate1").change(function() {
+            var classv = $("#cate1").val();
+            //alert(classv);
+            $.post("<?php echo site_url("/product/getsubcat") ?>", {
+              classv: classv
+            }, function(data) {
+              $("#sub_category").html(data);
+              //alert("data");
+            });
+
+          });
+          
+          $("#total_amount").mouseover(function() {
+            var totamount = Number($("#total_amount1").val());
+            var quantity =Number ($("#quantity").val());
+            var exquantity= $("#extraqunatity1").val();
+            var price = Number($("#price").val());
+            if(exquantity==""){
+              var totp= quantity*price;
+            }
+            else{
+            var exquantity1=Number($("#extraqunatity1").val());
+              var totp= exquantity1*price;
+
+            }
+                
+            var totalamt= totp+totamount;
+            //alert(totalamt);
+            $("#total_amount").val(totalamt);
+            
+          });
+          </script>
+
+
+          <!-- Input Alignment card end -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

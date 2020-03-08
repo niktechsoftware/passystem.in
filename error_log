@@ -1,0 +1,1194 @@
+[28-Jun-2019 17:54:09 Etc/GMT] PHP Parse error:  syntax error, unexpected '<<' (T_SL), expecting end of file in /home/schoodhe/public_html/passystem.in/application/config/config.php on line 25
+[28-Jun-2019 17:54:14 Etc/GMT] PHP Parse error:  syntax error, unexpected '<<' (T_SL), expecting end of file in /home/schoodhe/public_html/passystem.in/application/config/config.php on line 25
+[28-Jun-2019 17:58:27 Etc/GMT] PHP Parse error:  syntax error, unexpected '<<' (T_SL), expecting end of file in /home/schoodhe/public_html/passystem.in/application/config/database.php on line 51
+[28-Jun-2019 17:59:22 Etc/GMT] PHP Parse error:  syntax error, unexpected '<<' (T_SL), expecting end of file in /home/schoodhe/public_html/passystem.in/application/config/database.php on line 51
+[29-Jun-2019 18:19:34 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::name() in /home/schoodhe/public_html/passystem.in/application/views/header/header.php:62
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include()
+#1 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#2 /home/schoodhe/public_html/passystem.in/application/views/body.php(4): CI_Loader->view('header/header')
+#3 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include('/home/schoodhe/...')
+#4 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#5 /home/schoodhe/public_html/passystem.in/application/controllers/welcome.php(14): CI_Loader->view('body', Array)
+#6 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Welcome->index()
+#7 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#8 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/views/header/header.php on line 62
+[30-Jun-2019 07:06:12 Etc/GMT] PHP Parse error:  syntax error, unexpected '<<' (T_SL), expecting end of file in /home/schoodhe/public_html/passystem.in/application/config/database.php on line 55
+[30-Jun-2019 07:06:28 Etc/GMT] PHP Parse error:  syntax error, unexpected '<<' (T_SL), expecting end of file in /home/schoodhe/public_html/passystem.in/application/config/database.php on line 55
+[30-Jun-2019 07:06:30 Etc/GMT] PHP Parse error:  syntax error, unexpected '<<' (T_SL), expecting end of file in /home/schoodhe/public_html/passystem.in/application/config/database.php on line 55
+[30-Jun-2019 09:25:41 Etc/GMT] PHP Parse error:  syntax error, unexpected '<<' (T_SL), expecting end of file in /home/schoodhe/public_html/passystem.in/application/config/database.php on line 55
+[30-Jun-2019 10:29:12 Etc/GMT] PHP Parse error:  syntax error, unexpected '<<' (T_SL), expecting end of file in /home/schoodhe/public_html/passystem.in/application/config/database.php on line 55
+[30-Jun-2019 10:29:18 Etc/GMT] PHP Parse error:  syntax error, unexpected '<<' (T_SL), expecting end of file in /home/schoodhe/public_html/passystem.in/application/config/database.php on line 55
+[30-Jun-2019 10:29:23 Etc/GMT] PHP Parse error:  syntax error, unexpected '<<' (T_SL), expecting end of file in /home/schoodhe/public_html/passystem.in/application/config/database.php on line 55
+[30-Jun-2019 10:29:29 Etc/GMT] PHP Parse error:  syntax error, unexpected '<<' (T_SL), expecting end of file in /home/schoodhe/public_html/passystem.in/application/config/database.php on line 55
+[30-Jun-2019 10:29:34 Etc/GMT] PHP Parse error:  syntax error, unexpected '<<' (T_SL), expecting end of file in /home/schoodhe/public_html/passystem.in/application/config/database.php on line 55
+[30-Jun-2019 10:29:39 Etc/GMT] PHP Parse error:  syntax error, unexpected '<<' (T_SL), expecting end of file in /home/schoodhe/public_html/passystem.in/application/config/database.php on line 55
+[30-Jun-2019 10:29:43 Etc/GMT] PHP Parse error:  syntax error, unexpected '<<' (T_SL), expecting end of file in /home/schoodhe/public_html/passystem.in/application/config/database.php on line 55
+[30-Jun-2019 10:29:49 Etc/GMT] PHP Parse error:  syntax error, unexpected '<<' (T_SL), expecting end of file in /home/schoodhe/public_html/passystem.in/application/config/database.php on line 55
+[30-Jun-2019 12:15:31 Etc/GMT] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 122
+[30-Jun-2019 12:24:25 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to a member function num_rows() on string in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php:23
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Auth->customer_value()
+#1 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#2 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 23
+[30-Jun-2019 12:25:11 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to a member function num_rows() on string in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php:23
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Auth->customer_value()
+#1 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#2 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 23
+[30-Jun-2019 12:25:49 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to a member function num_rows() on string in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php:23
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Auth->customer_value()
+#1 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#2 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 23
+[30-Jun-2019 12:27:58 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to a member function num_rows() on string in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php:23
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Auth->customer_value()
+#1 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#2 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 23
+[30-Jun-2019 12:32:16 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to a member function num_rows() on boolean in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php:24
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Auth->customer_value()
+#1 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#2 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 24
+[30-Jun-2019 12:32:43 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to a member function num_rows() on boolean in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php:24
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Auth->customer_value()
+#1 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#2 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 24
+[30-Jun-2019 12:39:37 Etc/GMT] PHP Fatal error:  Uncaught Error: Cannot use object of type CI_DB_mysqli_result as array in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php:102
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Auth->customer_value()
+#1 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#2 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 102
+[30-Jun-2019 12:39:47 Etc/GMT] PHP Fatal error:  Uncaught Error: Cannot use object of type CI_DB_mysqli_result as array in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php:102
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Auth->customer_value()
+#1 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#2 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 102
+[30-Jun-2019 12:40:03 Etc/GMT] PHP Fatal error:  Uncaught Error: Cannot use object of type CI_DB_mysqli_result as array in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php:102
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Auth->customer_value()
+#1 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#2 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 102
+[30-Jun-2019 12:52:14 Etc/GMT] PHP Fatal error:  Uncaught Error: Cannot use object of type CI_DB_mysqli_result as array in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php:104
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Auth->customer_value()
+#1 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#2 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 104
+[30-Jun-2019 12:53:21 Etc/GMT] PHP Fatal error:  Uncaught Error: Cannot use object of type CI_DB_mysqli_result as array in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php:104
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Auth->customer_value()
+#1 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#2 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 104
+[30-Jun-2019 12:54:05 Etc/GMT] PHP Fatal error:  Uncaught Error: Cannot use object of type CI_DB_mysqli_result as array in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php:104
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Auth->customer_value()
+#1 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#2 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 104
+[30-Jun-2019 17:06:21 Etc/GMT] PHP Fatal error:  Uncaught Error: Cannot use object of type CI_DB_mysqli_result as array in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php:104
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Auth->customer_value()
+#1 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#2 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 104
+[30-Jun-2019 17:58:24 Etc/GMT] PHP Fatal error:  Uncaught Error: Cannot use object of type CI_DB_mysqli_result as array in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php:104
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Auth->customer_value()
+#1 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#2 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 104
+[30-Jun-2019 18:07:54 Etc/GMT] PHP Fatal error:  Uncaught Error: Cannot use object of type CI_DB_mysqli_result as array in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php:104
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Auth->customer_value()
+#1 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#2 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 104
+[30-Jun-2019 18:14:58 Etc/GMT] PHP Fatal error:  Uncaught Error: Cannot use object of type CI_DB_mysqli_result as array in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php:104
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Auth->customer_value()
+#1 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#2 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 104
+[30-Jun-2019 18:57:52 Etc/GMT] PHP Fatal error:  Uncaught Error: Cannot use object of type CI_DB_mysqli_result as array in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php:104
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Auth->customer_value()
+#1 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#2 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 104
+[30-Jun-2019 20:23:45 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to a member function num_rows() on boolean in /home/schoodhe/public_html/passystem.in/application/views/ajax/subscriberSingUp.php:2
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include()
+#1 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#2 /home/schoodhe/public_html/passystem.in/application/controllers/auth.php(221): CI_Loader->view('ajax/subscriber...', Array)
+#3 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Auth->checkjoinerid()
+#4 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#5 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/views/ajax/subscriberSingUp.php on line 2
+[30-Jun-2019 20:23:45 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to a member function num_rows() on boolean in /home/schoodhe/public_html/passystem.in/application/views/ajax/subscriberSingUp.php:2
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include()
+#1 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#2 /home/schoodhe/public_html/passystem.in/application/controllers/auth.php(221): CI_Loader->view('ajax/subscriber...', Array)
+#3 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Auth->checkjoinerid()
+#4 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#5 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/views/ajax/subscriberSingUp.php on line 2
+[30-Jun-2019 20:23:45 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to a member function num_rows() on boolean in /home/schoodhe/public_html/passystem.in/application/views/ajax/subscriberSingUp.php:2
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include()
+#1 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#2 /home/schoodhe/public_html/passystem.in/application/controllers/auth.php(221): CI_Loader->view('ajax/subscriber...', Array)
+#3 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Auth->checkjoinerid()
+#4 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#5 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/views/ajax/subscriberSingUp.php on line 2
+[30-Jun-2019 20:23:45 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to a member function num_rows() on boolean in /home/schoodhe/public_html/passystem.in/application/views/ajax/subscriberSingUp.php:2
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include()
+#1 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#2 /home/schoodhe/public_html/passystem.in/application/controllers/auth.php(221): CI_Loader->view('ajax/subscriber...', Array)
+#3 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Auth->checkjoinerid()
+#4 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#5 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/views/ajax/subscriberSingUp.php on line 2
+[30-Jun-2019 20:23:45 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to a member function num_rows() on boolean in /home/schoodhe/public_html/passystem.in/application/views/ajax/subscriberSingUp.php:2
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include()
+#1 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#2 /home/schoodhe/public_html/passystem.in/application/controllers/auth.php(221): CI_Loader->view('ajax/subscriber...', Array)
+#3 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Auth->checkjoinerid()
+#4 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#5 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/views/ajax/subscriberSingUp.php on line 2
+[30-Jun-2019 20:24:16 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to a member function num_rows() on boolean in /home/schoodhe/public_html/passystem.in/application/views/ajax/subscriberSingUp.php:2
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include()
+#1 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#2 /home/schoodhe/public_html/passystem.in/application/controllers/auth.php(221): CI_Loader->view('ajax/subscriber...', Array)
+#3 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Auth->checkjoinerid()
+#4 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#5 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/views/ajax/subscriberSingUp.php on line 2
+[30-Jun-2019 20:24:18 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to a member function num_rows() on boolean in /home/schoodhe/public_html/passystem.in/application/views/ajax/subscriberSingUp.php:2
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include()
+#1 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#2 /home/schoodhe/public_html/passystem.in/application/controllers/auth.php(221): CI_Loader->view('ajax/subscriber...', Array)
+#3 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Auth->checkjoinerid()
+#4 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#5 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/views/ajax/subscriberSingUp.php on line 2
+[30-Jun-2019 20:33:58 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::num_rows() in /home/schoodhe/public_html/passystem.in/application/views/ajax/subscriberSingUp.php:2
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include()
+#1 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#2 /home/schoodhe/public_html/passystem.in/application/controllers/auth.php(225): CI_Loader->view('ajax/subscriber...', Array)
+#3 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Auth->checkjoinerid()
+#4 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#5 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/views/ajax/subscriberSingUp.php on line 2
+[30-Jun-2019 20:34:00 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::num_rows() in /home/schoodhe/public_html/passystem.in/application/views/ajax/subscriberSingUp.php:2
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include()
+#1 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#2 /home/schoodhe/public_html/passystem.in/application/controllers/auth.php(225): CI_Loader->view('ajax/subscriber...', Array)
+#3 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Auth->checkjoinerid()
+#4 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#5 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/views/ajax/subscriberSingUp.php on line 2
+[30-Jun-2019 20:34:00 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::num_rows() in /home/schoodhe/public_html/passystem.in/application/views/ajax/subscriberSingUp.php:2
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include()
+#1 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#2 /home/schoodhe/public_html/passystem.in/application/controllers/auth.php(225): CI_Loader->view('ajax/subscriber...', Array)
+#3 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Auth->checkjoinerid()
+#4 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#5 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/views/ajax/subscriberSingUp.php on line 2
+[30-Jun-2019 20:34:07 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::num_rows() in /home/schoodhe/public_html/passystem.in/application/views/ajax/subscriberSingUp.php:2
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include()
+#1 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#2 /home/schoodhe/public_html/passystem.in/application/controllers/auth.php(225): CI_Loader->view('ajax/subscriber...', Array)
+#3 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Auth->checkjoinerid()
+#4 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#5 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/views/ajax/subscriberSingUp.php on line 2
+[30-Jun-2019 20:42:25 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::num_rows() in /home/schoodhe/public_html/passystem.in/application/views/ajax/subscriberSingUp.php:2
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include()
+#1 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#2 /home/schoodhe/public_html/passystem.in/application/controllers/auth.php(223): CI_Loader->view('ajax/subscriber...', Array)
+#3 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Auth->checkjoinerid()
+#4 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#5 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/views/ajax/subscriberSingUp.php on line 2
+[30-Jun-2019 20:42:37 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::num_rows() in /home/schoodhe/public_html/passystem.in/application/views/ajax/subscriberSingUp.php:2
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include()
+#1 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#2 /home/schoodhe/public_html/passystem.in/application/controllers/auth.php(223): CI_Loader->view('ajax/subscriber...', Array)
+#3 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Auth->checkjoinerid()
+#4 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#5 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/views/ajax/subscriberSingUp.php on line 2
+[30-Jun-2019 20:42:50 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::num_rows() in /home/schoodhe/public_html/passystem.in/application/views/ajax/subscriberSingUp.php:2
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include()
+#1 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#2 /home/schoodhe/public_html/passystem.in/application/controllers/auth.php(223): CI_Loader->view('ajax/subscriber...', Array)
+#3 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Auth->checkjoinerid()
+#4 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#5 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/views/ajax/subscriberSingUp.php on line 2
+[30-Jun-2019 20:44:57 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::num_rows() in /home/schoodhe/public_html/passystem.in/application/views/ajax/subscriberSingUp.php:2
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include()
+#1 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#2 /home/schoodhe/public_html/passystem.in/application/controllers/auth.php(224): CI_Loader->view('ajax/subscriber...', Array)
+#3 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Auth->checkjoinerid()
+#4 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#5 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/views/ajax/subscriberSingUp.php on line 2
+[30-Jun-2019 20:45:08 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::num_rows() in /home/schoodhe/public_html/passystem.in/application/views/ajax/subscriberSingUp.php:2
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include()
+#1 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#2 /home/schoodhe/public_html/passystem.in/application/controllers/auth.php(224): CI_Loader->view('ajax/subscriber...', Array)
+#3 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Auth->checkjoinerid()
+#4 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#5 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/views/ajax/subscriberSingUp.php on line 2
+[30-Jun-2019 20:48:28 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to a member function num_rows() on boolean in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php:222
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Auth->checkjoinerid()
+#1 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#2 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 222
+[30-Jun-2019 20:48:29 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to a member function num_rows() on boolean in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php:222
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Auth->checkjoinerid()
+#1 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#2 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 222
+[30-Jun-2019 20:48:29 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to a member function num_rows() on boolean in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php:222
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Auth->checkjoinerid()
+#1 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#2 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 222
+[30-Jun-2019 20:48:52 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to a member function num_rows() on boolean in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php:222
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Auth->checkjoinerid()
+#1 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#2 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 222
+[30-Jun-2019 20:48:52 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to a member function num_rows() on boolean in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php:222
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Auth->checkjoinerid()
+#1 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#2 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 222
+[30-Jun-2019 20:48:53 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to a member function num_rows() on boolean in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php:222
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Auth->checkjoinerid()
+#1 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#2 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 222
+[30-Jun-2019 20:48:53 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to a member function num_rows() on boolean in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php:222
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Auth->checkjoinerid()
+#1 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#2 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 222
+[30-Jun-2019 20:48:54 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to a member function num_rows() on boolean in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php:222
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Auth->checkjoinerid()
+#1 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#2 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 222
+[30-Jun-2019 20:48:54 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to a member function num_rows() on boolean in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php:222
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Auth->checkjoinerid()
+#1 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#2 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 222
+[30-Jun-2019 22:49:45 Etc/GMT] PHP Fatal error:  Uncaught Error: Cannot use object of type CI_DB_mysqli_result as array in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php:104
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Auth->customer_value()
+#1 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#2 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 104
+[30-Jun-2019 22:55:23 Etc/GMT] PHP Fatal error:  Uncaught Error: Cannot use object of type CI_DB_mysqli_result as array in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php:104
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Auth->customer_value()
+#1 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#2 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 104
+[30-Jun-2019 22:56:26 Etc/GMT] PHP Fatal error:  Uncaught Error: Cannot use object of type CI_DB_mysqli_result as array in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php:104
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Auth->customer_value()
+#1 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#2 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 104
+[30-Jun-2019 23:12:00 Etc/GMT] PHP Fatal error:  Uncaught Error: Cannot use object of type CI_DB_mysqli_result as array in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php:104
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Auth->customer_value()
+#1 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#2 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 104
+[30-Jun-2019 23:13:29 Etc/GMT] PHP Fatal error:  Uncaught Error: Cannot use object of type CI_DB_mysqli_result as array in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php:104
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Auth->customer_value()
+#1 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#2 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 104
+[01-Jul-2019 00:58:23 Etc/GMT] PHP Fatal error:  Uncaught Error: Cannot use object of type CI_DB_mysqli_result as array in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php:104
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Auth->customer_value()
+#1 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#2 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 104
+[01-Jul-2019 07:13:29 Etc/GMT] PHP Fatal error:  Uncaught Error: Cannot use object of type CI_DB_mysqli_result as array in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php:106
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Auth->customer_value()
+#1 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#2 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 106
+[01-Jul-2019 08:40:32 Etc/GMT] PHP Fatal error:  Uncaught Error: Cannot use object of type CI_DB_mysqli_result as array in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php:114
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Auth->customer_value()
+#1 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#2 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 114
+[01-Jul-2019 08:40:38 Etc/GMT] PHP Fatal error:  Uncaught Error: Cannot use object of type CI_DB_mysqli_result as array in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php:114
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Auth->customer_value()
+#1 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#2 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 114
+[01-Jul-2019 08:50:07 Etc/GMT] PHP Fatal error:  Uncaught Error: Cannot use object of type CI_DB_mysqli_result as array in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php:115
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Auth->customer_value()
+#1 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#2 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 115
+[01-Jul-2019 08:55:06 Etc/GMT] PHP Fatal error:  Uncaught Error: Cannot use object of type CI_DB_mysqli_result as array in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php:116
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Auth->customer_value()
+#1 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#2 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 116
+[01-Jul-2019 08:56:24 Etc/GMT] PHP Fatal error:  Uncaught Error: Cannot use object of type CI_DB_mysqli_result as array in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php:116
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Auth->customer_value()
+#1 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#2 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 116
+[01-Jul-2019 08:56:30 Etc/GMT] PHP Fatal error:  Uncaught Error: Cannot use object of type CI_DB_mysqli_result as array in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php:116
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Auth->customer_value()
+#1 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#2 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 116
+[01-Jul-2019 11:43:15 Etc/GMT] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 31
+[01-Jul-2019 11:43:19 Etc/GMT] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 31
+[03-Jul-2019 13:20:27 Etc/GMT] PHP Fatal error:  Cannot redeclare Auth::getsubtype() in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 603
+[03-Jul-2019 13:22:07 Etc/GMT] PHP Fatal error:  Cannot redeclare Auth::getsubtype() in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 603
+[04-Jul-2019 11:24:21 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 463
+[04-Jul-2019 11:24:23 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 463
+[04-Jul-2019 11:24:25 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 463
+[04-Jul-2019 11:24:29 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 463
+[04-Jul-2019 11:24:31 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 463
+[04-Jul-2019 11:24:31 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 463
+[04-Jul-2019 11:24:31 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 463
+[04-Jul-2019 11:24:33 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 463
+[04-Jul-2019 11:24:40 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 463
+[04-Jul-2019 11:25:05 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 463
+[04-Jul-2019 11:25:20 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 463
+[04-Jul-2019 11:25:31 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 463
+[04-Jul-2019 11:25:40 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 463
+[04-Jul-2019 11:26:01 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 463
+[04-Jul-2019 11:26:10 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 463
+[04-Jul-2019 11:26:21 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 463
+[04-Jul-2019 11:26:43 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 463
+[04-Jul-2019 11:27:01 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 463
+[04-Jul-2019 11:27:10 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 463
+[04-Jul-2019 11:32:45 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:32:49 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:32:54 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:33:06 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:33:09 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:33:14 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:33:37 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:33:40 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:34:06 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:34:20 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:34:39 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:34:44 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:36:46 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:36:55 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:37:18 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:37:38 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:37:45 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:38:06 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:38:08 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:38:11 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:38:13 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:38:14 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:38:17 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:38:20 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:38:25 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:38:27 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:38:33 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:38:35 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:38:37 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:38:39 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:38:42 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:38:44 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 463
+[04-Jul-2019 11:38:44 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 463
+[04-Jul-2019 11:38:59 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 463
+[04-Jul-2019 11:39:13 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:41:39 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:41:42 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:41:43 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:41:45 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:41:47 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:41:49 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:41:50 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:41:51 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:41:52 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:41:53 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:41:54 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:41:55 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:41:56 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:41:56 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:41:57 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:41:58 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:42:07 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:42:39 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:42:48 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:42:52 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:43:46 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:44:36 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:44:38 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:44:40 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:44:41 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:44:42 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:44:44 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:44:46 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:44:48 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:44:50 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:44:57 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:45:00 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:45:17 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:45:17 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:45:17 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:45:20 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:45:30 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:45:38 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:47:52 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:48:18 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:48:20 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:49:01 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:49:04 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:49:27 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:49:35 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[04-Jul-2019 11:49:52 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 472
+[07-Jul-2019 14:46:26 Etc/GMT] PHP Parse error:  syntax error, unexpected '}' in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage_pro.php on line 330
+[07-Jul-2019 14:47:36 Etc/GMT] PHP Parse error:  syntax error, unexpected '}' in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage_pro.php on line 333
+[07-Jul-2019 14:48:11 Etc/GMT] PHP Parse error:  syntax error, unexpected '}' in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage_pro.php on line 333
+[07-Jul-2019 14:48:49 Etc/GMT] PHP Parse error:  syntax error, unexpected '}' in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage_pro.php on line 333
+[07-Jul-2019 14:48:58 Etc/GMT] PHP Parse error:  syntax error, unexpected '}' in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage_pro.php on line 333
+[07-Jul-2019 14:50:32 Etc/GMT] PHP Parse error:  syntax error, unexpected '}' in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage_pro.php on line 270
+[07-Jul-2019 15:01:30 Etc/GMT] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage_pro.php:305
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include()
+#1 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#2 /home/schoodhe/public_html/passystem.in/application/views/body.php(5): CI_Loader->view('pages/homepage_...')
+#3 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include('/home/schoodhe/...')
+#4 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#5 /home/schoodhe/public_html/passystem.in/application/controllers/pagination.php(43): CI_Loader->view('body', Array)
+#6 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): pagination->index()
+#7 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#8 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage_pro.php on line 305
+[07-Jul-2019 15:05:45 Etc/GMT] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage_pro.php:306
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include()
+#1 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#2 /home/schoodhe/public_html/passystem.in/application/views/body.php(5): CI_Loader->view('pages/homepage_...')
+#3 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include('/home/schoodhe/...')
+#4 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#5 /home/schoodhe/public_html/passystem.in/application/controllers/pagination.php(43): CI_Loader->view('body', Array)
+#6 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): pagination->index()
+#7 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#8 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage_pro.php on line 306
+[16-Jul-2019 06:21:56 Etc/GMT] PHP Parse error:  syntax error, unexpected end of file in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php on line 1114
+[16-Jul-2019 06:22:02 Etc/GMT] PHP Parse error:  syntax error, unexpected end of file in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php on line 1114
+[17-Jul-2019 07:22:43 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to undefined function num_rows() in /home/schoodhe/public_html/passystem.in/application/views/pages/employeeInvoice.php:27
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include()
+#1 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#2 /home/schoodhe/public_html/passystem.in/application/views/body.php(5): CI_Loader->view('pages/employeeI...')
+#3 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include('/home/schoodhe/...')
+#4 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#5 /home/schoodhe/public_html/passystem.in/application/controllers/auth.php(689): CI_Loader->view('body', Array)
+#6 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Auth->employeeInvoice('5')
+#7 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#8 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/views/pages/employeeInvoice.php on line 27
+[17-Jul-2019 07:23:17 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to undefined function num_rows() in /home/schoodhe/public_html/passystem.in/application/views/pages/employeeInvoice.php:27
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include()
+#1 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#2 /home/schoodhe/public_html/passystem.in/application/views/body.php(5): CI_Loader->view('pages/employeeI...')
+#3 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include('/home/schoodhe/...')
+#4 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#5 /home/schoodhe/public_html/passystem.in/application/controllers/auth.php(689): CI_Loader->view('body', Array)
+#6 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Auth->employeeInvoice('5')
+#7 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#8 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/views/pages/employeeInvoice.php on line 27
+[19-Jul-2019 10:05:17 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::emp_username() in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php:470
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include()
+#1 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#2 /home/schoodhe/public_html/passystem.in/application/views/body.php(5): CI_Loader->view('pages/homepage')
+#3 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include('/home/schoodhe/...')
+#4 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#5 /home/schoodhe/public_html/passystem.in/application/controllers/welcome.php(23): CI_Loader->view('body', Array)
+#6 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Welcome->index()
+#7 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#8 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php on line 470
+[19-Jul-2019 10:06:02 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::emp_username() in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php:470
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include()
+#1 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#2 /home/schoodhe/public_html/passystem.in/application/views/body.php(5): CI_Loader->view('pages/homepage')
+#3 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include('/home/schoodhe/...')
+#4 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#5 /home/schoodhe/public_html/passystem.in/application/controllers/welcome.php(23): CI_Loader->view('body', Array)
+#6 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Welcome->index()
+#7 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#8 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php on line 470
+[19-Jul-2019 10:06:12 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::emp_username() in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php:470
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include()
+#1 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#2 /home/schoodhe/public_html/passystem.in/application/views/body.php(5): CI_Loader->view('pages/homepage')
+#3 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include('/home/schoodhe/...')
+#4 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#5 /home/schoodhe/public_html/passystem.in/application/controllers/welcome.php(23): CI_Loader->view('body', Array)
+#6 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Welcome->index()
+#7 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#8 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php on line 470
+[19-Jul-2019 10:07:09 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::emp_username() in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php:470
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include()
+#1 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#2 /home/schoodhe/public_html/passystem.in/application/views/body.php(5): CI_Loader->view('pages/homepage')
+#3 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include('/home/schoodhe/...')
+#4 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#5 /home/schoodhe/public_html/passystem.in/application/controllers/welcome.php(23): CI_Loader->view('body', Array)
+#6 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Welcome->index()
+#7 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#8 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php on line 470
+[19-Jul-2019 10:08:22 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::emp_username() in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php:469
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include()
+#1 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#2 /home/schoodhe/public_html/passystem.in/application/views/body.php(5): CI_Loader->view('pages/homepage')
+#3 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include('/home/schoodhe/...')
+#4 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#5 /home/schoodhe/public_html/passystem.in/application/controllers/welcome.php(23): CI_Loader->view('body', Array)
+#6 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Welcome->index()
+#7 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#8 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php on line 469
+[19-Jul-2019 10:09:43 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::emp_username() in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php:469
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include()
+#1 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#2 /home/schoodhe/public_html/passystem.in/application/views/body.php(5): CI_Loader->view('pages/homepage')
+#3 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include('/home/schoodhe/...')
+#4 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#5 /home/schoodhe/public_html/passystem.in/application/controllers/welcome.php(23): CI_Loader->view('body', Array)
+#6 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Welcome->index()
+#7 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#8 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php on line 469
+[19-Jul-2019 10:22:22 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::emp_username() in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php:466
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include()
+#1 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#2 /home/schoodhe/public_html/passystem.in/application/views/body.php(5): CI_Loader->view('pages/homepage')
+#3 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include('/home/schoodhe/...')
+#4 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#5 /home/schoodhe/public_html/passystem.in/application/controllers/welcome.php(23): CI_Loader->view('body', Array)
+#6 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Welcome->index()
+#7 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#8 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php on line 466
+[19-Jul-2019 10:24:06 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::emp_username() in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php:466
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include()
+#1 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#2 /home/schoodhe/public_html/passystem.in/application/views/body.php(5): CI_Loader->view('pages/homepage')
+#3 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include('/home/schoodhe/...')
+#4 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#5 /home/schoodhe/public_html/passystem.in/application/controllers/welcome.php(23): CI_Loader->view('body', Array)
+#6 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Welcome->index()
+#7 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#8 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php on line 466
+[19-Jul-2019 10:27:31 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::emp_username() in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php:466
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include()
+#1 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#2 /home/schoodhe/public_html/passystem.in/application/views/body.php(5): CI_Loader->view('pages/homepage')
+#3 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include('/home/schoodhe/...')
+#4 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#5 /home/schoodhe/public_html/passystem.in/application/controllers/welcome.php(23): CI_Loader->view('body', Array)
+#6 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Welcome->index()
+#7 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#8 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php on line 466
+[19-Jul-2019 10:32:51 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::emp_username() in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php:466
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include()
+#1 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#2 /home/schoodhe/public_html/passystem.in/application/views/body.php(5): CI_Loader->view('pages/homepage')
+#3 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include('/home/schoodhe/...')
+#4 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#5 /home/schoodhe/public_html/passystem.in/application/controllers/welcome.php(23): CI_Loader->view('body', Array)
+#6 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Welcome->index()
+#7 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#8 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php on line 466
+[19-Jul-2019 10:35:38 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::emp_username() in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php:466
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include()
+#1 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#2 /home/schoodhe/public_html/passystem.in/application/views/body.php(5): CI_Loader->view('pages/homepage')
+#3 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include('/home/schoodhe/...')
+#4 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#5 /home/schoodhe/public_html/passystem.in/application/controllers/welcome.php(23): CI_Loader->view('body', Array)
+#6 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Welcome->index()
+#7 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#8 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php on line 466
+[19-Jul-2019 10:42:57 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::emp_username() in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php:466
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include()
+#1 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#2 /home/schoodhe/public_html/passystem.in/application/views/body.php(5): CI_Loader->view('pages/homepage')
+#3 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include('/home/schoodhe/...')
+#4 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#5 /home/schoodhe/public_html/passystem.in/application/controllers/welcome.php(23): CI_Loader->view('body', Array)
+#6 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Welcome->index()
+#7 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#8 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php on line 466
+[19-Jul-2019 10:47:10 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::emp_username() in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php:466
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include()
+#1 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#2 /home/schoodhe/public_html/passystem.in/application/views/body.php(5): CI_Loader->view('pages/homepage')
+#3 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include('/home/schoodhe/...')
+#4 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#5 /home/schoodhe/public_html/passystem.in/application/controllers/welcome.php(23): CI_Loader->view('body', Array)
+#6 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Welcome->index()
+#7 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#8 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php on line 466
+[24-Jul-2019 05:23:14 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to undefined method CI_DB_mysqli_driver::post() in /home/schoodhe/public_html/passystem.in/application/controllers/contact_us_cont.php:26
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Contact_us_cont->contact_value()
+#1 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#2 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/controllers/contact_us_cont.php on line 26
+[24-Jul-2019 09:03:12 Etc/GMT] PHP Fatal error:  Cannot redeclare Auth::match_pan() in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 39
+[24-Jul-2019 09:03:21 Etc/GMT] PHP Fatal error:  Cannot redeclare Auth::match_pan() in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 39
+[24-Jul-2019 09:03:23 Etc/GMT] PHP Fatal error:  Cannot redeclare Auth::match_pan() in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 39
+[24-Jul-2019 09:03:28 Etc/GMT] PHP Fatal error:  Cannot redeclare Auth::match_pan() in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 39
+[24-Jul-2019 09:03:31 Etc/GMT] PHP Fatal error:  Cannot redeclare Auth::match_pan() in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 39
+[24-Jul-2019 09:03:42 Etc/GMT] PHP Fatal error:  Cannot redeclare Auth::match_pan() in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 39
+[24-Jul-2019 09:03:53 Etc/GMT] PHP Fatal error:  Cannot redeclare Auth::match_pan() in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 39
+[24-Jul-2019 09:04:21 Etc/GMT] PHP Fatal error:  Cannot redeclare Auth::match_pan() in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 39
+[24-Jul-2019 09:04:28 Etc/GMT] PHP Fatal error:  Cannot redeclare Auth::match_pan() in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 39
+[24-Jul-2019 09:04:34 Etc/GMT] PHP Fatal error:  Cannot redeclare Auth::match_pan() in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 39
+[24-Jul-2019 09:05:35 Etc/GMT] PHP Fatal error:  Cannot redeclare Auth::match_pan() in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 39
+[24-Jul-2019 09:10:09 Etc/GMT] PHP Fatal error:  Cannot redeclare Auth::match_pan() in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 39
+[24-Jul-2019 09:10:21 Etc/GMT] PHP Fatal error:  Cannot redeclare Auth::match_pan() in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 39
+[24-Jul-2019 09:14:49 Etc/GMT] PHP Fatal error:  Cannot redeclare Auth::match_pan() in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 39
+[24-Jul-2019 09:14:59 Etc/GMT] PHP Fatal error:  Cannot redeclare Auth::match_pan() in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 39
+[24-Jul-2019 09:15:43 Etc/GMT] PHP Fatal error:  Cannot redeclare Auth::match_pan() in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 39
+[24-Jul-2019 09:15:47 Etc/GMT] PHP Fatal error:  Cannot redeclare Auth::match_pan() in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 39
+[24-Jul-2019 09:16:09 Etc/GMT] PHP Fatal error:  Cannot redeclare Auth::match_pan() in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 39
+[24-Jul-2019 09:17:47 Etc/GMT] PHP Fatal error:  Cannot redeclare Auth::match_pan() in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 39
+[24-Jul-2019 09:18:04 Etc/GMT] PHP Fatal error:  Cannot redeclare Auth::match_pan() in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 39
+[24-Jul-2019 09:18:06 Etc/GMT] PHP Fatal error:  Cannot redeclare Auth::match_pan() in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 39
+[24-Jul-2019 09:18:14 Etc/GMT] PHP Fatal error:  Cannot redeclare Auth::match_pan() in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 39
+[24-Jul-2019 09:18:33 Etc/GMT] PHP Fatal error:  Cannot redeclare Auth::match_pan() in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 39
+[24-Jul-2019 09:18:51 Etc/GMT] PHP Fatal error:  Cannot redeclare Auth::match_pan() in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 39
+[24-Jul-2019 09:19:00 Etc/GMT] PHP Fatal error:  Cannot redeclare Auth::match_pan() in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 39
+[24-Jul-2019 09:19:04 Etc/GMT] PHP Fatal error:  Cannot redeclare Auth::match_pan() in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 39
+[19-Aug-2019 05:21:51 Etc/GMT] PHP Parse error:  syntax error, unexpected end of file in /home/schoodhe/public_html/passystem.in/application/views/pages/topten_ach_view.php on line 10
+[19-Aug-2019 07:07:07 Etc/GMT] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/schoodhe/public_html/passystem.in/application/views/pages/best_ao_v.php:22
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include()
+#1 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#2 /home/schoodhe/public_html/passystem.in/application/views/body.php(5): CI_Loader->view('pages/best_ao_v')
+#3 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include('/home/schoodhe/...')
+#4 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#5 /home/schoodhe/public_html/passystem.in/application/controllers/about_us_cont.php(72): CI_Loader->view('body', Array)
+#6 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): About_us_cont->best_ao()
+#7 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#8 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/views/pages/best_ao_v.php on line 22
+[20-Aug-2019 05:40:53 Etc/GMT] PHP Parse error:  syntax error, unexpected end of file in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php on line 1093
+[20-Aug-2019 05:41:02 Etc/GMT] PHP Parse error:  syntax error, unexpected end of file in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php on line 1093
+[20-Aug-2019 05:41:06 Etc/GMT] PHP Parse error:  syntax error, unexpected end of file in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php on line 1093
+[20-Aug-2019 05:47:53 Etc/GMT] PHP Parse error:  syntax error, unexpected end of file in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php on line 1046
+[20-Aug-2019 05:49:00 Etc/GMT] PHP Parse error:  syntax error, unexpected end of file in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php on line 1046
+[20-Aug-2019 06:14:41 Etc/GMT] PHP Parse error:  syntax error, unexpected end of file in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php on line 1064
+[01-Sep-2019 12:03:50 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to a member function num_rows() on null in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php:446
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include()
+#1 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#2 /home/schoodhe/public_html/passystem.in/application/views/body.php(5): CI_Loader->view('pages/homepage')
+#3 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include('/home/schoodhe/...')
+#4 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#5 /home/schoodhe/public_html/passystem.in/application/controllers/welcome.php(23): CI_Loader->view('body', Array)
+#6 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Welcome->index()
+#7 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#8 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php on line 446
+[01-Sep-2019 12:04:00 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to a member function num_rows() on null in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php:446
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include()
+#1 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#2 /home/schoodhe/public_html/passystem.in/application/views/body.php(5): CI_Loader->view('pages/homepage')
+#3 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include('/home/schoodhe/...')
+#4 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#5 /home/schoodhe/public_html/passystem.in/application/controllers/welcome.php(23): CI_Loader->view('body', Array)
+#6 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Welcome->index()
+#7 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#8 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php on line 446
+[01-Sep-2019 12:06:30 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to a member function num_rows() on null in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php:446
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include()
+#1 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#2 /home/schoodhe/public_html/passystem.in/application/views/body.php(5): CI_Loader->view('pages/homepage')
+#3 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include('/home/schoodhe/...')
+#4 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#5 /home/schoodhe/public_html/passystem.in/application/controllers/welcome.php(23): CI_Loader->view('body', Array)
+#6 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Welcome->index()
+#7 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#8 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php on line 446
+[01-Sep-2019 12:06:36 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to a member function num_rows() on null in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php:446
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include()
+#1 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#2 /home/schoodhe/public_html/passystem.in/application/views/body.php(5): CI_Loader->view('pages/homepage')
+#3 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include('/home/schoodhe/...')
+#4 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#5 /home/schoodhe/public_html/passystem.in/application/controllers/welcome.php(23): CI_Loader->view('body', Array)
+#6 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Welcome->index()
+#7 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#8 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php on line 446
+[01-Sep-2019 12:10:10 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to a member function num_rows() on null in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php:449
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include()
+#1 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#2 /home/schoodhe/public_html/passystem.in/application/views/body.php(5): CI_Loader->view('pages/homepage')
+#3 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include('/home/schoodhe/...')
+#4 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#5 /home/schoodhe/public_html/passystem.in/application/controllers/welcome.php(23): CI_Loader->view('body', Array)
+#6 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Welcome->index()
+#7 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#8 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php on line 449
+[01-Sep-2019 12:10:54 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to a member function num_rows() on null in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php:449
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include()
+#1 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#2 /home/schoodhe/public_html/passystem.in/application/views/body.php(5): CI_Loader->view('pages/homepage')
+#3 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include('/home/schoodhe/...')
+#4 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#5 /home/schoodhe/public_html/passystem.in/application/controllers/welcome.php(23): CI_Loader->view('body', Array)
+#6 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Welcome->index()
+#7 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#8 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php on line 449
+[01-Sep-2019 12:13:06 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to a member function num_rows() on null in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php:452
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include()
+#1 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#2 /home/schoodhe/public_html/passystem.in/application/views/body.php(5): CI_Loader->view('pages/homepage')
+#3 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include('/home/schoodhe/...')
+#4 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#5 /home/schoodhe/public_html/passystem.in/application/controllers/welcome.php(23): CI_Loader->view('body', Array)
+#6 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Welcome->index()
+#7 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#8 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php on line 452
+[01-Sep-2019 12:13:16 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to a member function num_rows() on null in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php:452
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include()
+#1 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#2 /home/schoodhe/public_html/passystem.in/application/views/body.php(5): CI_Loader->view('pages/homepage')
+#3 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include('/home/schoodhe/...')
+#4 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#5 /home/schoodhe/public_html/passystem.in/application/controllers/welcome.php(23): CI_Loader->view('body', Array)
+#6 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Welcome->index()
+#7 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#8 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php on line 452
+[01-Sep-2019 12:15:36 Etc/GMT] PHP Parse error:  syntax error, unexpected ')' in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php on line 438
+[01-Sep-2019 12:16:29 Etc/GMT] PHP Parse error:  syntax error, unexpected ')' in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php on line 438
+[01-Sep-2019 12:16:34 Etc/GMT] PHP Parse error:  syntax error, unexpected ')' in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php on line 438
+[01-Sep-2019 12:16:59 Etc/GMT] PHP Parse error:  syntax error, unexpected ')' in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php on line 438
+[01-Sep-2019 12:17:08 Etc/GMT] PHP Parse error:  syntax error, unexpected ')' in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php on line 438
+[01-Sep-2019 12:17:12 Etc/GMT] PHP Parse error:  syntax error, unexpected ')' in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php on line 438
+[01-Sep-2019 12:17:14 Etc/GMT] PHP Parse error:  syntax error, unexpected ')' in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php on line 438
+[01-Sep-2019 12:17:17 Etc/GMT] PHP Parse error:  syntax error, unexpected ')' in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php on line 438
+[01-Sep-2019 12:17:20 Etc/GMT] PHP Parse error:  syntax error, unexpected ')' in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php on line 438
+[01-Sep-2019 12:17:24 Etc/GMT] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php on line 460
+[01-Sep-2019 12:17:28 Etc/GMT] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php on line 460
+[01-Sep-2019 12:17:38 Etc/GMT] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php on line 460
+[01-Sep-2019 12:17:52 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to a member function num_rows() on null in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php:454
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include()
+#1 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#2 /home/schoodhe/public_html/passystem.in/application/views/body.php(5): CI_Loader->view('pages/homepage')
+#3 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include('/home/schoodhe/...')
+#4 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#5 /home/schoodhe/public_html/passystem.in/application/controllers/welcome.php(23): CI_Loader->view('body', Array)
+#6 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Welcome->index()
+#7 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#8 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php on line 454
+[01-Sep-2019 12:18:09 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to a member function num_rows() on null in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php:454
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include()
+#1 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#2 /home/schoodhe/public_html/passystem.in/application/views/body.php(5): CI_Loader->view('pages/homepage')
+#3 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include('/home/schoodhe/...')
+#4 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#5 /home/schoodhe/public_html/passystem.in/application/controllers/welcome.php(23): CI_Loader->view('body', Array)
+#6 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Welcome->index()
+#7 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#8 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php on line 454
+[01-Sep-2019 12:18:13 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to a member function num_rows() on null in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php:454
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include()
+#1 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#2 /home/schoodhe/public_html/passystem.in/application/views/body.php(5): CI_Loader->view('pages/homepage')
+#3 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include('/home/schoodhe/...')
+#4 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#5 /home/schoodhe/public_html/passystem.in/application/controllers/welcome.php(23): CI_Loader->view('body', Array)
+#6 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Welcome->index()
+#7 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#8 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php on line 454
+[01-Sep-2019 12:20:09 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to a member function num_rows() on null in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php:454
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include()
+#1 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#2 /home/schoodhe/public_html/passystem.in/application/views/body.php(5): CI_Loader->view('pages/homepage')
+#3 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include('/home/schoodhe/...')
+#4 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#5 /home/schoodhe/public_html/passystem.in/application/controllers/welcome.php(23): CI_Loader->view('body', Array)
+#6 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Welcome->index()
+#7 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#8 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php on line 454
+[01-Sep-2019 14:35:57 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to a member function num_rows() on null in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php:455
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include()
+#1 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#2 /home/schoodhe/public_html/passystem.in/application/views/body.php(5): CI_Loader->view('pages/homepage')
+#3 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include('/home/schoodhe/...')
+#4 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#5 /home/schoodhe/public_html/passystem.in/application/controllers/welcome.php(23): CI_Loader->view('body', Array)
+#6 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Welcome->index()
+#7 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#8 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php on line 455
+[01-Sep-2019 14:38:59 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to a member function num_rows() on null in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php:456
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include()
+#1 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#2 /home/schoodhe/public_html/passystem.in/application/views/body.php(5): CI_Loader->view('pages/homepage')
+#3 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include('/home/schoodhe/...')
+#4 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#5 /home/schoodhe/public_html/passystem.in/application/controllers/welcome.php(23): CI_Loader->view('body', Array)
+#6 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Welcome->index()
+#7 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#8 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php on line 456
+[01-Sep-2019 14:40:09 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::num_rows() in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php:458
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include()
+#1 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#2 /home/schoodhe/public_html/passystem.in/application/views/body.php(5): CI_Loader->view('pages/homepage')
+#3 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include('/home/schoodhe/...')
+#4 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#5 /home/schoodhe/public_html/passystem.in/application/controllers/welcome.php(23): CI_Loader->view('body', Array)
+#6 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Welcome->index()
+#7 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#8 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php on line 458
+[01-Sep-2019 14:42:15 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::num_rows() in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php:458
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include()
+#1 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#2 /home/schoodhe/public_html/passystem.in/application/views/body.php(5): CI_Loader->view('pages/homepage')
+#3 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include('/home/schoodhe/...')
+#4 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#5 /home/schoodhe/public_html/passystem.in/application/controllers/welcome.php(23): CI_Loader->view('body', Array)
+#6 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Welcome->index()
+#7 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#8 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php on line 458
+[01-Sep-2019 14:42:43 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::num_rows() in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php:458
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include()
+#1 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#2 /home/schoodhe/public_html/passystem.in/application/views/body.php(5): CI_Loader->view('pages/homepage')
+#3 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include('/home/schoodhe/...')
+#4 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#5 /home/schoodhe/public_html/passystem.in/application/controllers/welcome.php(23): CI_Loader->view('body', Array)
+#6 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Welcome->index()
+#7 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#8 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php on line 458
+[01-Sep-2019 14:43:37 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::num_rows() in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php:458
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include()
+#1 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#2 /home/schoodhe/public_html/passystem.in/application/views/body.php(5): CI_Loader->view('pages/homepage')
+#3 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include('/home/schoodhe/...')
+#4 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#5 /home/schoodhe/public_html/passystem.in/application/controllers/welcome.php(23): CI_Loader->view('body', Array)
+#6 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Welcome->index()
+#7 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#8 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php on line 458
+[01-Sep-2019 14:46:12 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::num_rows() in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php:458
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include()
+#1 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#2 /home/schoodhe/public_html/passystem.in/application/views/body.php(5): CI_Loader->view('pages/homepage')
+#3 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include('/home/schoodhe/...')
+#4 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#5 /home/schoodhe/public_html/passystem.in/application/controllers/welcome.php(23): CI_Loader->view('body', Array)
+#6 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Welcome->index()
+#7 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#8 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php on line 458
+[01-Sep-2019 14:48:55 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::num_rows() in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php:458
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include()
+#1 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#2 /home/schoodhe/public_html/passystem.in/application/views/body.php(5): CI_Loader->view('pages/homepage')
+#3 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include('/home/schoodhe/...')
+#4 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#5 /home/schoodhe/public_html/passystem.in/application/controllers/welcome.php(23): CI_Loader->view('body', Array)
+#6 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Welcome->index()
+#7 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#8 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php on line 458
+[01-Sep-2019 14:50:30 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::num_rows() in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php:458
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include()
+#1 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#2 /home/schoodhe/public_html/passystem.in/application/views/body.php(5): CI_Loader->view('pages/homepage')
+#3 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include('/home/schoodhe/...')
+#4 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#5 /home/schoodhe/public_html/passystem.in/application/controllers/welcome.php(23): CI_Loader->view('body', Array)
+#6 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Welcome->index()
+#7 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#8 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php on line 458
+[01-Sep-2019 14:53:38 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::num_rows() in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php:458
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include()
+#1 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#2 /home/schoodhe/public_html/passystem.in/application/views/body.php(5): CI_Loader->view('pages/homepage')
+#3 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include('/home/schoodhe/...')
+#4 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#5 /home/schoodhe/public_html/passystem.in/application/controllers/welcome.php(23): CI_Loader->view('body', Array)
+#6 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Welcome->index()
+#7 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#8 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php on line 458
+[01-Sep-2019 14:54:00 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::num_rows() in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php:458
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include()
+#1 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#2 /home/schoodhe/public_html/passystem.in/application/views/body.php(5): CI_Loader->view('pages/homepage')
+#3 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include('/home/schoodhe/...')
+#4 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#5 /home/schoodhe/public_html/passystem.in/application/controllers/welcome.php(23): CI_Loader->view('body', Array)
+#6 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Welcome->index()
+#7 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#8 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php on line 458
+[01-Sep-2019 14:57:37 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to a member function num_rows() on null in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php:457
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include()
+#1 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#2 /home/schoodhe/public_html/passystem.in/application/views/body.php(5): CI_Loader->view('pages/homepage')
+#3 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include('/home/schoodhe/...')
+#4 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#5 /home/schoodhe/public_html/passystem.in/application/controllers/welcome.php(23): CI_Loader->view('body', Array)
+#6 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Welcome->index()
+#7 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#8 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php on line 457
+[01-Sep-2019 14:59:00 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to a member function num_rows() on null in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php:457
+Stack trace:
+#0 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include()
+#1 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#2 /home/schoodhe/public_html/passystem.in/application/views/body.php(5): CI_Loader->view('pages/homepage')
+#3 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(834): include('/home/schoodhe/...')
+#4 /home/schoodhe/public_html/passystem.in/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#5 /home/schoodhe/public_html/passystem.in/application/controllers/welcome.php(23): CI_Loader->view('body', Array)
+#6 /home/schoodhe/public_html/passystem.in/system/core/CodeIgniter.php(360): Welcome->index()
+#7 /home/schoodhe/public_html/passystem.in/index.php(202): require_once('/home/schoodhe/...')
+#8 {main}
+  thrown in /home/schoodhe/public_html/passystem.in/application/views/pages/homepage.php on line 457
+[03-Sep-2019 07:41:30 Etc/GMT] PHP Parse error:  syntax error, unexpected '--' (T_DEC) in /home/schoodhe/public_html/passystem.in/application/views/header/header.php on line 177
+[03-Sep-2019 07:41:36 Etc/GMT] PHP Parse error:  syntax error, unexpected '--' (T_DEC) in /home/schoodhe/public_html/passystem.in/application/views/header/header.php on line 177
+[03-Sep-2019 07:42:05 Etc/GMT] PHP Parse error:  syntax error, unexpected '--' (T_DEC) in /home/schoodhe/public_html/passystem.in/application/views/header/header.php on line 177
+[30-Sep-2019 10:54:36 Etc/GMT] PHP Fatal error:  Call to a member function result() on a non-object in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 981
+[30-Sep-2019 10:54:40 Etc/GMT] PHP Fatal error:  Call to a member function result() on a non-object in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 981
+[30-Sep-2019 10:54:40 Etc/GMT] PHP Fatal error:  Call to a member function result() on a non-object in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 981
+[30-Sep-2019 10:55:40 Etc/GMT] PHP Fatal error:  Call to a member function row() on a non-object in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 981
+[30-Sep-2019 10:55:41 Etc/GMT] PHP Fatal error:  Call to a member function row() on a non-object in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 981
+[14-Oct-2019 10:35:16 Etc/GMT] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 915
+[14-Oct-2019 10:35:25 Etc/GMT] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 915
+[14-Oct-2019 10:35:35 Etc/GMT] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 915
+[14-Oct-2019 10:35:56 Etc/GMT] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 915
+[14-Oct-2019 10:36:07 Etc/GMT] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 915
+[14-Oct-2019 10:37:06 Etc/GMT] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /home/schoodhe/public_html/passystem.in/application/controllers/auth.php on line 915
+[23-Oct-2019 05:23:43 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Registration1::checkjoinerid(), 1 passed in /home3/passy8kw/public_html/application/controllers/auth.php on line 138 and exactly 2 expected in /home3/passy8kw/public_html/application/models/registration1.php:4
+Stack trace:
+#0 /home3/passy8kw/public_html/application/controllers/auth.php(138): Registration1->checkjoinerid('PSU4C319')
+#1 /home3/passy8kw/public_html/system/core/CodeIgniter.php(360): Auth->customer_value()
+#2 /home3/passy8kw/public_html/index.php(202): require_once('/home3/passy8kw...')
+#3 {main}
+  thrown in /home3/passy8kw/public_html/application/models/registration1.php on line 4
+[23-Oct-2019 06:23:06 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Registration1::checkjoinerid(), 1 passed in /home3/passy8kw/public_html/application/controllers/auth.php on line 138 and exactly 2 expected in /home3/passy8kw/public_html/application/models/registration1.php:4
+Stack trace:
+#0 /home3/passy8kw/public_html/application/controllers/auth.php(138): Registration1->checkjoinerid('PSU2C300')
+#1 /home3/passy8kw/public_html/system/core/CodeIgniter.php(360): Auth->customer_value()
+#2 /home3/passy8kw/public_html/index.php(202): require_once('/home3/passy8kw...')
+#3 {main}
+  thrown in /home3/passy8kw/public_html/application/models/registration1.php on line 4
+[23-Oct-2019 06:23:20 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Registration1::checkjoinerid(), 1 passed in /home3/passy8kw/public_html/application/controllers/auth.php on line 138 and exactly 2 expected in /home3/passy8kw/public_html/application/models/registration1.php:4
+Stack trace:
+#0 /home3/passy8kw/public_html/application/controllers/auth.php(138): Registration1->checkjoinerid('PSU2C300')
+#1 /home3/passy8kw/public_html/system/core/CodeIgniter.php(360): Auth->customer_value()
+#2 /home3/passy8kw/public_html/index.php(202): require_once('/home3/passy8kw...')
+#3 {main}
+  thrown in /home3/passy8kw/public_html/application/models/registration1.php on line 4
+[23-Oct-2019 06:23:25 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Registration1::checkjoinerid(), 1 passed in /home3/passy8kw/public_html/application/controllers/auth.php on line 138 and exactly 2 expected in /home3/passy8kw/public_html/application/models/registration1.php:4
+Stack trace:
+#0 /home3/passy8kw/public_html/application/controllers/auth.php(138): Registration1->checkjoinerid('PSU2C300')
+#1 /home3/passy8kw/public_html/system/core/CodeIgniter.php(360): Auth->customer_value()
+#2 /home3/passy8kw/public_html/index.php(202): require_once('/home3/passy8kw...')
+#3 {main}
+  thrown in /home3/passy8kw/public_html/application/models/registration1.php on line 4
+[23-Oct-2019 06:30:42 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Registration1::checkjoinerid(), 1 passed in /home3/passy8kw/public_html/application/controllers/auth.php on line 138 and exactly 2 expected in /home3/passy8kw/public_html/application/models/registration1.php:4
+Stack trace:
+#0 /home3/passy8kw/public_html/application/controllers/auth.php(138): Registration1->checkjoinerid('PSU2C298')
+#1 /home3/passy8kw/public_html/system/core/CodeIgniter.php(360): Auth->customer_value()
+#2 /home3/passy8kw/public_html/index.php(202): require_once('/home3/passy8kw...')
+#3 {main}
+  thrown in /home3/passy8kw/public_html/application/models/registration1.php on line 4
+[23-Oct-2019 06:31:44 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Registration1::checkjoinerid(), 1 passed in /home3/passy8kw/public_html/application/controllers/auth.php on line 138 and exactly 2 expected in /home3/passy8kw/public_html/application/models/registration1.php:4
+Stack trace:
+#0 /home3/passy8kw/public_html/application/controllers/auth.php(138): Registration1->checkjoinerid('PSU2C298')
+#1 /home3/passy8kw/public_html/system/core/CodeIgniter.php(360): Auth->customer_value()
+#2 /home3/passy8kw/public_html/index.php(202): require_once('/home3/passy8kw...')
+#3 {main}
+  thrown in /home3/passy8kw/public_html/application/models/registration1.php on line 4
+[23-Oct-2019 06:32:14 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Registration1::checkjoinerid(), 1 passed in /home3/passy8kw/public_html/application/controllers/auth.php on line 138 and exactly 2 expected in /home3/passy8kw/public_html/application/models/registration1.php:4
+Stack trace:
+#0 /home3/passy8kw/public_html/application/controllers/auth.php(138): Registration1->checkjoinerid('PSU1C263')
+#1 /home3/passy8kw/public_html/system/core/CodeIgniter.php(360): Auth->customer_value()
+#2 /home3/passy8kw/public_html/index.php(202): require_once('/home3/passy8kw...')
+#3 {main}
+  thrown in /home3/passy8kw/public_html/application/models/registration1.php on line 4
+[23-Oct-2019 06:32:28 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Registration1::checkjoinerid(), 1 passed in /home3/passy8kw/public_html/application/controllers/auth.php on line 138 and exactly 2 expected in /home3/passy8kw/public_html/application/models/registration1.php:4
+Stack trace:
+#0 /home3/passy8kw/public_html/application/controllers/auth.php(138): Registration1->checkjoinerid('PSU2C298')
+#1 /home3/passy8kw/public_html/system/core/CodeIgniter.php(360): Auth->customer_value()
+#2 /home3/passy8kw/public_html/index.php(202): require_once('/home3/passy8kw...')
+#3 {main}
+  thrown in /home3/passy8kw/public_html/application/models/registration1.php on line 4
+[23-Oct-2019 06:32:43 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Registration1::checkjoinerid(), 1 passed in /home3/passy8kw/public_html/application/controllers/auth.php on line 138 and exactly 2 expected in /home3/passy8kw/public_html/application/models/registration1.php:4
+Stack trace:
+#0 /home3/passy8kw/public_html/application/controllers/auth.php(138): Registration1->checkjoinerid('PSU2C298')
+#1 /home3/passy8kw/public_html/system/core/CodeIgniter.php(360): Auth->customer_value()
+#2 /home3/passy8kw/public_html/index.php(202): require_once('/home3/passy8kw...')
+#3 {main}
+  thrown in /home3/passy8kw/public_html/application/models/registration1.php on line 4
+[23-Oct-2019 06:32:46 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Registration1::checkjoinerid(), 1 passed in /home3/passy8kw/public_html/application/controllers/auth.php on line 138 and exactly 2 expected in /home3/passy8kw/public_html/application/models/registration1.php:4
+Stack trace:
+#0 /home3/passy8kw/public_html/application/controllers/auth.php(138): Registration1->checkjoinerid('PSU2C298')
+#1 /home3/passy8kw/public_html/system/core/CodeIgniter.php(360): Auth->customer_value()
+#2 /home3/passy8kw/public_html/index.php(202): require_once('/home3/passy8kw...')
+#3 {main}
+  thrown in /home3/passy8kw/public_html/application/models/registration1.php on line 4
+[24-Oct-2019 09:52:12 UTC] PHP Fatal error:  Uncaught Error: Call to a member function rows() on null in /home3/passy8kw/public_html/application/views/pages/homepage.php:256
+Stack trace:
+#0 /home3/passy8kw/public_html/system/core/Loader.php(834): include()
+#1 /home3/passy8kw/public_html/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#2 /home3/passy8kw/public_html/application/views/body.php(5): CI_Loader->view('pages/homepage')
+#3 /home3/passy8kw/public_html/system/core/Loader.php(834): include('/home3/passy8kw...')
+#4 /home3/passy8kw/public_html/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#5 /home3/passy8kw/public_html/application/controllers/welcome.php(22): CI_Loader->view('body', Array)
+#6 /home3/passy8kw/public_html/system/core/CodeIgniter.php(360): Welcome->index()
+#7 /home3/passy8kw/public_html/index.php(202): require_once('/home3/passy8kw...')
+#8 {main}
+  thrown in /home3/passy8kw/public_html/application/views/pages/homepage.php on line 256
+[24-Oct-2019 09:53:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function rows() on null in /home3/passy8kw/public_html/application/views/pages/homepage.php:256
+Stack trace:
+#0 /home3/passy8kw/public_html/system/core/Loader.php(834): include()
+#1 /home3/passy8kw/public_html/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#2 /home3/passy8kw/public_html/application/views/body.php(5): CI_Loader->view('pages/homepage')
+#3 /home3/passy8kw/public_html/system/core/Loader.php(834): include('/home3/passy8kw...')
+#4 /home3/passy8kw/public_html/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#5 /home3/passy8kw/public_html/application/controllers/welcome.php(22): CI_Loader->view('body', Array)
+#6 /home3/passy8kw/public_html/system/core/CodeIgniter.php(360): Welcome->index()
+#7 /home3/passy8kw/public_html/index.php(202): require_once('/home3/passy8kw...')
+#8 {main}
+  thrown in /home3/passy8kw/public_html/application/views/pages/homepage.php on line 256

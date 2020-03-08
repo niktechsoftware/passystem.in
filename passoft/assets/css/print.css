@@ -1,0 +1,39 @@
+ /**
+ *
+ * DDS MANNER Higher Secondary School
+ * @link http://ddsmanner.in/
+ * Built By: www.Gfinch.in
+ * Project Manager: Best School In Chiraiyakot, Mau
+ * 
+ *
+ */
+
+.navbar {
+	display: none;
+}
+.main-navigation{
+	display: none;
+}
+.hidden-print {
+	display: none;
+}
+.breadcrumb {
+	display: none;
+}
+.toolbar {
+	display: none;	
+}
+.page-header {
+	display: none;
+}
+.footer {
+	display: none;
+}
+.main-container {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+.main-content .container{
+	min-height: 0 !important;
+	border: none !important;
+}

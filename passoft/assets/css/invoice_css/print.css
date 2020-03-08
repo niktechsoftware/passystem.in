@@ -1,0 +1,40 @@
+/**
+ *
+ * DDS MANNER Higher Secondary School
+ * @link http://ddsmanner.in/
+ * Built By: www.ddsmanner.in
+ * Project Manager: Best School In Chiraiyakot, Mau
+ * 
+ *
+ */
+#hiderow,
+.delete {
+  display: none;
+}
+/* ---------------------------------------------------- BUtton CSS end ----------------------------------------- */
+@media print
+{
+    body * { visibility: hidden; }
+    
+    #non-printable { display: none; }
+    
+    #printcontent * { 
+        visibility: visible; 
+        -webkit-print-color-adjust: exact;
+    }
+    
+    #printcontent {
+        -webkit-print-color-adjust: exact;
+		position: absolute;
+		top: 40px;
+		left: 30px;
+	}
+	
+	.bg {
+		content: url("http://schoolerp-niktech.in/a_pass/images/id.jpg");
+	}
+	
+	.otherContainer {
+		content: url("http://schoolerp-niktech.in/a_pass/images/id.jpg"); 
+	}
+}
